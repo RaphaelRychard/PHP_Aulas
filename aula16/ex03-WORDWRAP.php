@@ -13,9 +13,13 @@
           
             <?php 
 
-                $t =  "Aqui vai um texto para exemplo sendo um texto grande para o exericicos de php que foi usado o worwrap que é uma quebra linha em código donte e php";
-                $es = wordwrap($t, 20, "<br>\n");
+                $t =  "
+                    O poeta é um fingidor. Finge tão completamente Que chega a fingir que é dor A dor que deveras sente. E os que lêem o que escreve, Na dor lida sentem bem, Não as duas que ele teve, Mas só a que eles não têm. E assim nas calhas da roda Gira, a entreter a razão, Esse comboio de corda Que se chama o coração.
+                    
+                    ";
+                $res = wordwrap($t, 20, "<br>\n", false);
                 echo $res;
+                
                 
             ?>
 
