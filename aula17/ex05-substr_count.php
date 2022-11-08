@@ -10,14 +10,11 @@
 
     <body>
         <div>
-          
             <?php 
-
-                $frase = "Eu vou estudar PHP Agora eu";
-                $cont = str_word_count($frase, 1);
-                print_r ($cont);
+               $frase = "Estou aprendendo PHP no curso em vídeo de PHP";
+               $cont = substr_count($frase, "PHP");
+               echo "$frase<br> A string foi encontrada $cont vezes";
             ?>
-
         </div>
     </body>
 

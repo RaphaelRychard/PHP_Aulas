@@ -12,10 +12,10 @@
         <div>
           
             <?php 
-
-                $frase = "Eu vou estudar PHP Agora eu";
-                $cont = str_word_count($frase, 1);
-                print_r ($cont);
+                $nome = "Raphael Rychard";
+                $strlower = strtolower($nome);
+                print ("Seu nome é $strlower");
+               
             ?>
 
         </div>

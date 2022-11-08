@@ -10,14 +10,11 @@
 
     <body>
         <div>
-          
             <?php 
-
-                $frase = "Eu vou estudar PHP Agora eu";
-                $cont = str_word_count($frase, 1);
-                print_r ($cont);
+              $site = "Curso em Vídeo";
+              $sub  = substr($site, 7);
+              echo $sub;   
             ?>
-
         </div>
     </body>
 
